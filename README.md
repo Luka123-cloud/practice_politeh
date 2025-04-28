@@ -10,3 +10,11 @@
 ```bash
 pip install -r requirements.txt
 python src/main.py
+### **5. Первый коммит**
+```bash
+# Добавьте файлы
+git add .
+git commit -m "Initial commit"
+
+# Загрузите на GitHub
+git push origin main
