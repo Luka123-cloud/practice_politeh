@@ -12,36 +12,11 @@
 # Вариативная часть задания
 Вариативная часть задания расположена в папке game
 
-Python: Roguelike Tutorial Revised
+Python: Roguelike Tutorial Revised, модификации в игре: добавлена система монет, магазина и информация об игре
 https://rogueliketutorials.com/
 
 
 ---
-
-### **3. docs/ARCHITECTURE.md** ([Пример](https://github.com/yourname/roguelike-python/blob/main/docs/ARCHITECTURE.md))
-
-````markdown
-# 🏗️ Архитектура проекта
-
-## Диаграмма классов
-```mermaid
-classDiagram
-    class Engine{
-        +game_map: GameMap
-        +player: Actor
-        +update_fov()
-    }
-    class GameMap{
-        -tiles: ndarray
-        +generate()
-    }
-    Engine --> GameMap
-```
-
-## Системы
-1. **ECS** (Entity-Component-System)
-2. **Процедурная генерация**
-3. **Боевая система**
 
 
 ## 1. Введение
