@@ -14,6 +14,36 @@
 
 Python: Roguelike Tutorial Revised
 https://rogueliketutorials.com/
+
+
+---
+
+### **3. docs/ARCHITECTURE.md** ([Пример](https://github.com/yourname/roguelike-python/blob/main/docs/ARCHITECTURE.md))
+
+````markdown
+# 🏗️ Архитектура проекта
+
+## Диаграмма классов
+```mermaid
+classDiagram
+    class Engine{
+        +game_map: GameMap
+        +player: Actor
+        +update_fov()
+    }
+    class GameMap{
+        -tiles: ndarray
+        +generate()
+    }
+    Engine --> GameMap
+```
+
+## Системы
+1. **ECS** (Entity-Component-System)
+2. **Процедурная генерация**
+3. **Боевая система**
+
+
 ## 1. Введение
 
 Проект выполнен в рамках вариативного задания учебной практики — "Практическая реализация технологии". Целью является создание собственной roguelike-игры на языке Python с использованием библиотеки `tcod` по материалам сайта [rogueliketutorials.com](https://rogueliketutorials.com), а также реализация и интеграция дополнительных функций.
