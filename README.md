@@ -11,6 +11,7 @@
 
 # Вариативная часть задания
 Вариативная часть задания расположена в папке game
+
 Python: Roguelike Tutorial Revised
 https://rogueliketutorials.com/
 ## 1. Введение
